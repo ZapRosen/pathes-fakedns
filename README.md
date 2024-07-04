@@ -1,7 +1,8 @@
 # fakedns
 
-> Fake DNS server written in python 3
-
+> Fake DNS server written in python 3 forked from Patryk Hes, thanks, Dziękuję 
+Der Server liefert alle Anfragen zurück, mit denen sich dein Rechner mit dem Internet verbindet. Ein sehr nützliches Tool.
+Kann auch als Ersatz für den fakedns von activestate unter python3 eingesetzt werden.
 ## What it does?
 
 It responds to DNS `A` questions (host address questions), responding with the same IP over and over. The server is intended to be used when testing HTTP crawlers.
